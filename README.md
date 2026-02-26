@@ -1,11 +1,17 @@
 # Python-SQL-ECOMMERCE-PROJECT
+
 Project Overview
+
 ​This project focuses on analyzing e-commerce sales data to derive actionable insights regarding profitability, customer behavior, and sales trends. By integrating SQL for data querying and Python for processing and automation, this analysis helps in understanding the financial health of the business.
+
 ​🛠️ Tech Stack
+
 ​Database: SQL (PostgreSQL/MySQL/SQL Server)
 ​Language: Python 3.x
 ​Libraries: pandas, pyodbc (or sqlalchemy/mysql-connector), matplotlib/seaborn (for visualization)
+
 ​🔗 Database Connection (Python to SQL)
+
 ​To connect Python with the SQL database, I used the following approach:
 import pandas as pd
 import mysql.connector
@@ -94,6 +100,7 @@ cur = db.cursor ()
 
 
 📊 Business Questions Addressed
+
 ​The analysis is divided into Basic and Intermediate levels to cover all aspects of the dataset:
 ​Level 1: Basic Analysis
 ​Total Orders: What is the total number of orders placed?
@@ -105,17 +112,20 @@ cur = db.cursor ()
 ​Order Percentage: Calculating the percentage of orders based on customer location.
 
 ​🚀 Key Insights
+
 ​Profitability: Identified which products have the highest Profit Margin = \frac{Net Profit}{Revenue} \times 100.
 ​Customer Retention: Analyzed regions with the highest order density.
 ​Sales Performance: Spotted seasonal trends in sales growth.
 
 ​📂 Project Structure
+
 ​data/: Contains raw or sample CSV files (like your Walmart.csv).
 ​sql_queries/: Includes .sql files with all the analysis queries.
 ​notebooks/: Jupyter Notebook (.ipynb) containing the Python-SQL integration and visualizations.
 ​README.md: Project documentation.
 
 ​⚙️ How to Run
+
 ​Clone the repository.
 ​Set up your SQL database and import the e-commerce dataset.
 ​Update the connection string in the Python script.
